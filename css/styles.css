@@ -339,8 +339,7 @@ template {
 }
 
 body {
-  background: dodgerblue;
-  font-size: 2em;
+  background: white;
   font-family: "Montserrat", sans-serif;
   height: 100vh;
 }
@@ -350,14 +349,31 @@ body {
 }
 
 span {
-  font-size: 1.7em;
+  font-size: 4.5em;
   font-weight: 400;
+}
+
+.content-title {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1.5rem;
+}
+
+.img-1 {
+  grid-area: img-1;
+  background: url("images/img-1.png");
 }
 
 .main-header {
   text-align: center;
   margin: 0 auto;
-  color: white;
+  color: black;
 }
 
 .nav__links {
@@ -365,7 +381,7 @@ span {
 }
 .nav__links li, .nav__links a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 .nav__links li {
   padding: 10px;

@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap');
 
 body {
-    background: dodgerblue;
-    font-size: 2em;
+    background: $white;
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
 }
@@ -12,6 +11,11 @@ body {
 }
 
 span {
-    font-size: 1.7em;
+    font-size: 4.5em;
     font-weight: 400;
+}
+
+.content-title {
+    margin: 0 auto;
+    text-align: center;
 }
