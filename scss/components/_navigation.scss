@@ -1,0 +1,21 @@
+//// Navigation Bar
+
+.main-header {
+    text-align: center;
+    margin: 0 auto;
+    color: $white;
+}
+
+.nav__links {
+    padding: 0;
+
+    li, a {
+        text-decoration: none;
+        color: $white;
+    }
+    li {
+        padding: 10px;
+    }
+}
+
+
