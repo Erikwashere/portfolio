@@ -5,7 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -358,8 +358,16 @@ body {
   padding-top: 20px;
 }
 
+.header-logo {
+  font-weight: 500;
+}
+
 span {
   font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.h2-title {
   font-weight: 400;
 }
 
