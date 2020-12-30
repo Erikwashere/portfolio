@@ -1,0 +1,8 @@
+/// Mixins
+
+@mixin images-gallery {
+    height: 400px;
+    width: 100%;
+    border: 1px solid $black;
+    margin: 0 auto;
+}

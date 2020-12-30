@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap');
 
-body {
-    background: $white;
-    font-family: 'Montserrat', sans-serif;
-    height: 100vh;
-}
 
 .main-header {
     text-align: center;
@@ -17,6 +12,13 @@ span {
 }
 
 .content-title {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.main-footer {
     margin: 0 auto;
     text-align: center;
 }

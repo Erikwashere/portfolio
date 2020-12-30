@@ -3,11 +3,42 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    grid-gap: 1.5rem;
+    grid-gap: .5rem;
 }
 
 
 .img-1 {
-    grid-area: img-1;
-    background: url('images/img-1.png');
+    @include images-gallery;
+    background: url('../images/img-1.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.img-2 {
+    @include images-gallery;
+    background: url('../images/img-2.png') no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.img-3 {
+    @include images-gallery;
+    background: url('../images/img-3.png') no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.img-4 {
+    @include images-gallery;
+    background: url('../images/img-4.png') no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.img-5 {
+    @include images-gallery;
+    background: url('../images/img-5.png') no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.img-6 {
+    @include images-gallery;
+    background: url('../images/img-6.png') no-repeat center center;
+    background-size: 100% 100%;
 }

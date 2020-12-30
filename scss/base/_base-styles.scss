@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: $white;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+
+.main-content {
+    max-width: 90%;
+    margin: 0 auto;
+}
