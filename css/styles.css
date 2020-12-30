@@ -371,6 +371,11 @@ span {
 .main-footer {
   margin: 0 auto;
   text-align: center;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background: white;
+  color: black;
+  padding: 30px;
 }
 
 .image-gallery {
@@ -381,7 +386,7 @@ span {
 }
 
 .img-1 {
-  height: 400px;
+  height: 300px;
   width: 100%;
   border: 1px solid black;
   margin: 0 auto;
@@ -390,7 +395,7 @@ span {
 }
 
 .img-2 {
-  height: 400px;
+  height: 300px;
   width: 100%;
   border: 1px solid black;
   margin: 0 auto;
@@ -399,7 +404,7 @@ span {
 }
 
 .img-3 {
-  height: 400px;
+  height: 300px;
   width: 100%;
   border: 1px solid black;
   margin: 0 auto;
@@ -408,7 +413,7 @@ span {
 }
 
 .img-4 {
-  height: 400px;
+  height: 300px;
   width: 100%;
   border: 1px solid black;
   margin: 0 auto;
@@ -417,7 +422,7 @@ span {
 }
 
 .img-5 {
-  height: 400px;
+  height: 300px;
   width: 100%;
   border: 1px solid black;
   margin: 0 auto;
@@ -426,7 +431,7 @@ span {
 }
 
 .img-6 {
-  height: 400px;
+  height: 300px;
   width: 100%;
   border: 1px solid black;
   margin: 0 auto;

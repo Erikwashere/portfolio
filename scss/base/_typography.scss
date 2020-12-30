@@ -21,4 +21,9 @@ span {
 .main-footer {
     margin: 0 auto;
     text-align: center;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: $white;
+    color: $black;
+    padding: 30px;
 }
