@@ -3,7 +3,8 @@
 @mixin images-gallery {
     height: 300px;
     width: 100%;
+    max-width: 450px;
     border: 1px solid $black;
-    border-radius: 2px;
+    border-radius: 10px;
     margin: 0 auto;
 }
