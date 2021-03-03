@@ -410,9 +410,8 @@ span {
   grid-gap: 2.5rem;
 }
 
-.images_gal {
-  max-width: 100%;
-  width: 50%;
+.bottom_border {
+  border-bottom: 3px solid royalblue;
 }
 
 .main-header {
