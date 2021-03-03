@@ -1,0 +1,61 @@
+// BASE STYLES
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: $primary-color;
+  font-family: 'Baloo Paaji 2', cursive;
+  color: $secondary-color;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  color: $third-color;
+}
+h1 {
+  font-size: 1.6em;
+  text-align: center;
+  padding: 25px;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  padding: 15px;
+  font-size: 1.7em;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.banner {
+  text-align: center;
+  padding: 25px;
+  margin-top: 25px;
+}
+
+.logo {
+  width: 75%;
+}
+
+.col {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}

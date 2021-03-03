@@ -1,0 +1,33 @@
+/* ---- Footer ---- */
+
+.secondary-footer {
+  display: inherit;
+}
+
+.student {
+  float: left;
+  padding-left: 15px;
+}
+
+.top {
+  list-style: none;
+  float: right;
+}
+
+.top li {
+  color: #868686;
+  font-size: 1.2em;
+  float: left;
+  padding: 10px;
+  margin: 20px;
+  text-transform: uppercase;
+}
+
+.student a,
+.top a {
+  color: #868686;
+}
+
+.main-footer {
+  display: none;
+}

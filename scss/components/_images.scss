@@ -6,39 +6,19 @@
     grid-gap: 2.5rem;
 }
 
-
-.img-1 {
-    @include images-gallery;
-    background: url('../images/img-1.png') no-repeat center;
-    background-size: 100% 100%;
+.images_gal {
+    max-width: 100%;
+    width: 50%;
 }
 
-.img-2 {
-    @include images-gallery;
-    background: url('../images/img-2.png') no-repeat center center;
-    background-size: 100% 100%;
-}
+.img_1 {}
 
-.img-3 {
-    @include images-gallery;
-    background: url('../images/img-3.png') no-repeat center center;
-    background-size: 100% 100%;
-}
+.img_2 {}
 
-.img-4 {
-    @include images-gallery;
-    background: url('../images/img-4.png') no-repeat center center;
-    background-size: 100% 100%;
-}
+.img_3 {}
 
-.img-5 {
-    @include images-gallery;
-    background: url('../images/img-5.png') no-repeat center center;
-    background-size: 100% 100%;
-}
+.img_4 {}
 
-.img-6 {
-    @include images-gallery;
-    background: url('../images/img-6.png') no-repeat center center;
-    background-size: 100% 100%;
-}
+.img_5 {}
+
+.img_6 {}

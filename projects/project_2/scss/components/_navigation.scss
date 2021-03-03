@@ -1,0 +1,76 @@
+// Navigation
+
+.name {
+  font-size: 2.3em;
+  margin: 0;
+  padding-top: 15px;
+}
+
+.main-nav {
+  margin-top: 25px;
+  font-size: 1.3em;
+}
+
+.name a,
+.main-nav a {
+  display: block;
+  text-align: center;
+  padding: 10px 25px;
+}
+
+.main-nav li {
+  margin: 5px;
+}
+
+.main-nav a {
+  font-size: 1.2em;
+  color: black;
+  text-transform: uppercase;
+  padding: 12px;
+  margin: 5px;
+  background: white;
+}
+
+.name a {
+  color: black;
+}
+
+.main-nav a:hover {
+  color: #e7e7e7;
+}
+
+.primary {
+  background: #FFFFFF;
+  padding-bottom: 25px;
+}
+
+.contact {
+  text-align: center;
+  padding: 25px;
+}
+
+.contact li {
+  font-size: 1em;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+
+.contact a {
+  color: $third-color;
+}
+
+.contact a:hover {
+  color: #e7e7e7;
+}
+
+.phone::before {
+  content: "Phone";
+  padding: 10px;
+  margin: 10px;
+}
+
+.email::before {
+  content: "Email";
+  padding: 10px;
+  margin: 10px;
+}

@@ -1,0 +1,118 @@
+/* =============================
+  Media query for 769px screens
+  ============================== */
+@media screen and (min-width: 768px) {
+
+  .main-header {
+    width: 100%;
+    top: 0;
+    text-align: center;
+  }
+
+  .main-nav {
+    padding: 0;
+    margin: 0;
+  }
+
+  .main-nav a {
+    background: none;
+  }
+
+  .main-nav li {
+    display: inline-block;
+  }
+
+  .banner {
+    padding: 0;
+    margin: 30px;
+  }
+
+  .content {
+    margin: 0 1%;
+  }
+
+  .portfolio-info {
+    text-align: left;
+  }
+
+  .logo {
+    width: 35%;
+    float: right;
+    padding-left: 10px;
+  }
+/* ---- Floats ---- */
+
+  .content {
+    float: left;
+    width: 47%;
+    padding: 10px;
+  }
+
+/* ---- Navigation for bigger scree ---- */
+
+  .main-footer {
+    display: inherit;
+    padding: 10px 5%;
+  }
+
+  .name-2 {
+    float: left;
+  }
+
+  .nav-2 {
+    list-style: none;
+    float: right;
+  }
+
+  .nav-2 li {
+    color: $secondary-color;
+    float: left;
+    padding: 10px;
+    margin: 20px;
+    text-transform: uppercase;
+  }
+
+  .nav-2 a,
+  .name-2 a {
+    color: $secondary-color;
+  }
+
+  .secondary-footer {
+    display: none;
+  }
+
+  .clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+
+
+}
+
+/* =============================
+  Media query for 1025px screens
+  ============================== */
+@media screen and (min-width: 1024px) {
+
+  .name {
+    float: left;
+    margin: 0 auto;
+    padding: 0
+  }
+
+  .content {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin: 0 1%;
+  }
+
+  .main-head li {
+    margin: 0 auto;
+  }
+
+  .secondary-footer {
+    display: none;
+  }
+}
