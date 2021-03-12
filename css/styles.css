@@ -473,4 +473,20 @@ span {
   font-size: 5.5rem;
 }
 
+.icons {
+  margin: 20px;
+}
+
+.fa-linkedin {
+  color: #006eff;
+}
+
+.fa-twitter {
+  color: #569af3;
+}
+
+.fa-github {
+  color: #ff7b00;
+}
+
 /*# sourceMappingURL=styles.css.map */
