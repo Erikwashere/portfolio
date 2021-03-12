@@ -1,21 +1,88 @@
-//// Navigation Bar
+// //// Navigation Bar
 
 .main-header {
-    text-align: center;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: $black;
+    padding: 30px 10%;
 }
 
-.nav__links {
-    padding: 0;
+.logo {
+    margin-right: auto;
+}
 
-    li, a {
+////////// Overlay Menu //////////
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: $black;
+    overflow-x: hidden;
+    transition: 0.5s;
+
+    a {
+        padding: 8px;
         text-decoration: none;
-        color: $black;
+        font-size: 2.25rem;
+        color: $grey;
+        transition: 0.3s;
     }
-    li {
-        padding: 10px;
+
+    a:hover, a:focus {
+        color: $grey;
     }
 }
 
+.overlay-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top:  50%;
+    width: 100%;
+    text-align: center;
+    margin-top: 50%;
+    transition: 0.7s;
+}
 
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 3.75rem;
+}
+
+
+
+
+// span {
+//     padding: 10px;
+//     padding-bottom: 10px;
+//     align-items: center;
+// }
+
+// .logo {
+//     cursor: pointer;
+//     margin-right: auto;
+// }   
+
+// .nav__links {
+//     padding: 0;
+
+//     li, a {
+//         text-decoration: none;
+//         list-style: none;
+//         color: $grey;
+//     }
+//     li {
+//         padding: 10px;
+//     }
+// }
+
+
+  

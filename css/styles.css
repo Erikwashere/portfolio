@@ -346,6 +346,7 @@ body {
   background: #f9fbfc;
   font-family: "Montserrat", sans-serif;
   height: 100vh;
+  color: #595A5A;
 }
 
 .main-content {
@@ -371,22 +372,23 @@ p {
   font-size: 1.3rem;
 }
 
-.main-header {
-  text-align: center;
-  padding-top: 20px;
-}
-
-.header-logo {
-  font-weight: 500;
+.project_1 {
+  background: royalblue;
+  border-radius: 7px;
+  padding: 10px;
 }
 
 span {
-  font-size: 3.5rem;
-  font-weight: 400;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .h2-title {
   font-weight: 400;
+  line-height: 1.5;
+  background: #595A5A;
+  color: #f9fbfc;
+  border-radius: 7px;
 }
 
 .content-title {
@@ -411,24 +413,60 @@ span {
 }
 
 .bottom_border {
-  border-bottom: 3px solid royalblue;
+  border-bottom: 2px solid #595A5A;
 }
 
 .main-header {
-  text-align: center;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: black;
+  padding: 30px 10%;
 }
 
-.nav__links {
-  padding: 0;
+.logo {
+  margin-right: auto;
 }
-.nav__links li, .nav__links a {
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.overlay a {
+  padding: 8px;
   text-decoration: none;
-  color: black;
+  font-size: 2.25rem;
+  color: #595A5A;
+  transition: 0.3s;
 }
-.nav__links li {
-  padding: 10px;
+.overlay a:hover, .overlay a:focus {
+  color: #595A5A;
+}
+
+.overlay-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  margin-top: 50%;
+  transition: 0.7s;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 3.75rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
