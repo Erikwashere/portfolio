@@ -21,7 +21,9 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background: $black;
+    // background: $black;
+    background: rgb(0,0,0);
+    background: linear-gradient(146deg, rgba(0,0,0,1) 0%, rgba(3,3,3,1) 45%, rgba(110,119,121,1) 100%);
     opacity: 0.9;
     overflow-x: hidden;
     transition: 0.5s;
