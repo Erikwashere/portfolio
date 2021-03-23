@@ -34,16 +34,24 @@ span {
     margin: 0;
     align-items: center;
 }
+//// Icons /////
 
 .icons-list {
     li {
         list-style: none;
         padding: 10px;
         font-size: 1.5rem;
+        
     }
-    display: flex;
-    align-content: space-around;
-    flex-wrap: wrap;
+    padding: 0;
+    // display: flex;
+    // align-content: space-around;
+    // flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    text-align: center;
 }
 
 .icon-html:before {
