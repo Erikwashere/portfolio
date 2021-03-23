@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -351,6 +352,7 @@ body {
 
 .main-content {
   max-width: 90%;
+  min-height: 100vh;
   margin: 0 auto;
 }
 
@@ -387,6 +389,70 @@ span {
   font-weight: 300;
 }
 
+.container_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid black 1.7px;
+  border-radius: 0.4375rem;
+  height: 350px;
+}
+
+.container_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid black 1.7px;
+  border-radius: 0.4375rem;
+  height: 350px;
+}
+
+.container-p {
+  margin: 0;
+  align-items: center;
+}
+
+.icons-list {
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+.icons-list li {
+  list-style: none;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.icon-html:before {
+  content: "";
+  font-family: FontAwesome;
+  margin: 10px;
+  color: #e34c26;
+}
+
+.icon-css:before {
+  content: "";
+  font-family: FontAwesome;
+  margin: 10px;
+  color: #263de4;
+}
+
+.icon-sass:before {
+  content: "";
+  font-family: FontAwesome;
+  margin: 10px;
+  color: #c69;
+}
+
+.icon-js:before {
+  content: "";
+  font-family: FontAwesome;
+  margin: 10px;
+  color: #f0db4f;
+}
+
 .h2-title {
   font-weight: 400;
   line-height: 1.5;
@@ -420,11 +486,18 @@ span {
 }
 
 .main-header {
+  padding: 30px 10%;
+}
+
+.large-screen-nav {
+  display: none;
+}
+
+.mobile-screen-menu {
   display: flex;
   justify-content: center;
   align-items: center;
   color: black;
-  padding: 30px 10%;
 }
 
 .logo {
@@ -438,7 +511,6 @@ span {
   z-index: 1;
   top: 0;
   left: 0;
-  background: black;
   background: linear-gradient(146deg, black 0%, #030303 45%, #6e7779 100%);
   opacity: 0.9;
   overflow-x: hidden;
@@ -488,6 +560,47 @@ span {
 
 .fa-github {
   color: #ff7b00;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-screen-menu {
+    display: none;
+  }
+
+  .large-screen-nav {
+    display: inherit;
+  }
+
+  span {
+    padding: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+  }
+
+  header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+  }
+
+  .secondary-logo {
+    cursor: pointer;
+    margin-right: auto;
+  }
+
+  .nav__links {
+    padding: 0;
+  }
+  .nav__links li, .nav__links a {
+    text-decoration: none;
+    list-style: none;
+    color: #595A5A;
+  }
+  .nav__links li {
+    display: inline-block;
+    padding: 10px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

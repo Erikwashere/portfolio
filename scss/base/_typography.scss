@@ -9,6 +9,73 @@ span {
     font-size: 2.5rem;
     font-weight: 300;
 }
+/////////////////
+.container_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid $black 1.7px;
+    border-radius: .4375rem;
+    height: 350px;
+}
+
+.container_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid $black 1.7px;
+    border-radius: .4375rem;
+    height: 350px;
+}
+
+.container-p {
+    margin: 0;
+    align-items: center;
+}
+
+.icons-list {
+    li {
+        list-style: none;
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icon-html:before {
+    content: "\f13b";
+    font-family: FontAwesome;
+    margin: 10px;
+    color: #e34c26;
+}
+
+.icon-css:before {
+    content: "\f38b";
+    font-family: FontAwesome;
+    margin: 10px;
+    color: #263de4;
+}
+
+.icon-sass:before {
+    content: "\f41e";
+    font-family: FontAwesome;
+    margin: 10px;
+    color: #c69;
+}
+
+.icon-js:before {
+    content: "\f3b8";
+    font-family: FontAwesome;
+    margin: 10px;
+    color: #f0db4f;
+}
+
+///////////////////
+
 
 .h2-title {
     font-weight: 400;

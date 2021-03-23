@@ -1,0 +1,45 @@
+@media screen and (min-width: 768px) {
+    .mobile-screen-menu {
+        display: none;
+    }
+
+    .large-screen-nav {
+        display: inherit;
+    }
+
+    span {
+        padding: 10px;
+        padding-bottom: 10px;
+        align-items: center;
+    }
+
+    header {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 30px 10%;
+    }
+
+    .secondary-logo {
+        cursor: pointer;
+        margin-right: auto;
+    }   
+
+    .nav__links {
+        padding: 0;
+
+        li, a {
+            text-decoration: none;
+            list-style: none;
+            color: $grey;
+        }
+        li {
+            display: inline-block;
+            padding: 10px;
+        }
+    }
+
+
+
+    
+}   
