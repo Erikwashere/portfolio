@@ -392,11 +392,9 @@ span {
 .container_1 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  border: solid black 1.7px;
-  border-radius: 0.4375rem;
-  height: 350px;
+  padding: 25px;
 }
 
 .container_2 {
@@ -404,14 +402,12 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: solid black 1.7px;
-  border-radius: 0.4375rem;
-  height: 350px;
+  padding: 25px;
+  margin-top: 15px;
 }
 
 .container-p {
   margin: 0;
-  align-items: center;
 }
 
 .icons-list {
@@ -456,8 +452,37 @@ span {
   color: #f0db4f;
 }
 
+/******************
+Contact Page
+*******************/
+.icons-list-container_3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  text-align: center;
+}
+
+.icon-email:before {
+  content: "";
+  font-family: FontAwesome;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.icon-email {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #595A5A;
+}
+
 .h2-title {
   font-weight: 400;
+  font-size: 2.5rem;
   line-height: 1.5;
   color: black;
   border-radius: 7px;
@@ -471,6 +496,7 @@ span {
 .main-footer {
   margin: 0 auto;
   text-align: center;
+  font-size: 1.3rem;
   grid-row-start: 2;
   grid-row-end: 3;
   color: black;
@@ -489,7 +515,7 @@ span {
 }
 
 .main-header {
-  padding: 30px 10%;
+  padding: 30px 25px;
 }
 
 .large-screen-nav {

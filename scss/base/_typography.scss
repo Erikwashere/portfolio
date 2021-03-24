@@ -9,15 +9,14 @@ span {
     font-size: 2.5rem;
     font-weight: 300;
 }
+
 /////////////////
 .container_1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    border: solid $black 1.7px;
-    border-radius: .4375rem;
-    height: 350px;
+    padding: 25px;
 }
 
 .container_2 {
@@ -25,14 +24,12 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: solid $black 1.7px;
-    border-radius: .4375rem;
-    height: 350px;
+    padding: 25px;
+    margin-top: 15px;
 }
 
 .container-p {
     margin: 0;
-    align-items: center;
 }
 //// Icons /////
 
@@ -41,8 +38,8 @@ span {
         list-style: none;
         padding: 10px;
         font-size: 1.5rem;
-        
     }
+
     padding: 0;
     // display: flex;
     // align-content: space-around;
@@ -81,12 +78,39 @@ span {
     margin: 10px;
     color: #f0db4f;
 }
+/////////////////// 
+/******************
+Contact Page
+*******************/
+.icons-list-container_3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    text-align: center;
+}
+.icon-email:before {
+    content: "\f199";
+    font-family: FontAwesome;
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
 
+.icon-email {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+    font-size: 1.5rem;
+    color: $grey;
+}
 ///////////////////
 
 
 .h2-title {
     font-weight: 400;
+    font-size: 2.5rem;
     line-height: 1.5;
     color: $black;
     border-radius: 7px;
@@ -100,6 +124,7 @@ span {
 .main-footer {
     margin: 0 auto;
     text-align: center;
+    font-size: 1.3rem;
     grid-row-start: 2;
     grid-row-end: 3;
     color: $black;
