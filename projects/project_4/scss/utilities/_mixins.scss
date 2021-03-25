@@ -1,0 +1,21 @@
+//MIXINS
+
+@mixin transition {
+  transition:
+    background-color .2s ease-in-out,
+    color .2s ease-in-out;
+}
+
+@mixin image_style {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+}
+
+@mixin image_style2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

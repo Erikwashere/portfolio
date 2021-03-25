@@ -1,0 +1,55 @@
+// BUTTON
+
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: $white;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.default {
+  background-color: $secondary-color;
+  &:hover {
+    background: $secondary_light;
+    @include transition;
+  }
+}
+
+.error {
+  background-color: $error_btn;
+  &:hover {
+    background: $error_light;
+    @include transition;
+  }
+}
+
+.info {
+  background-color: $info_btn;
+  &:hover {
+    background: $info_light;
+    @include transition;
+  }
+}
+
+.success {
+  background-color: $success_btn;
+  &:hover {
+    background: $success_light;
+    @include transition
+  }
+}
+
+.warning {
+  background-color: $warning_btn;
+  &:hover {
+    background: $warning_light;
+    @include transition;
+  }
+}

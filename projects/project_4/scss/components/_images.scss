@@ -1,0 +1,20 @@
+// IMAGES
+
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+
+.img-avatar {
+  @include image_style;
+  max-height: 100%;
+}
+
+.img-frame {
+  @include image_style;
+  padding: 13px;
+  border: 1px solid $light-gray;
+}
+
+.img-logo {
+  @include image_style2;
+}

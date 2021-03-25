@@ -1,0 +1,12 @@
+/// Media Queries
+
+@media (min-width: $break-point) {
+
+  h1 {
+    font-size: 2.9em;
+  }
+
+  input[type="search"]  {
+    width: 45%;
+  }
+}

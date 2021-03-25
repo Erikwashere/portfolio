@@ -1,0 +1,26 @@
+// VARIABLES
+
+// COLORS
+$white: #fff;
+$sliver: #777;
+$primary-color: #58e1c1;
+$secondary-color: #51ddfc;
+$light-gray: #ccc;
+
+// Button Colors
+$error_btn: #e4757a;
+$info_btn: #927bc1;
+$success_btn: #63cc82;
+$warning_btn: #fd7856;
+
+// Lighter Button
+$primary_light: lighten($primary-color, 10%);
+$secondary_light: lighten($secondary-color, 10%);
+$error_light: lighten($error_btn, 10%);
+$info_light: lighten($info_btn, 10%);
+$success_light: lighten($success_btn, 10%);
+$warning_light: lighten($warning_btn, 10%);
+
+// Media Queries
+
+$breakpoint: 768px;

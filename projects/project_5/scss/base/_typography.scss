@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=IBM+Plex+Serif&display=swap');
+
+@import 'baguettebox.js/dist/baguetteBox.min.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: $background-color;
+  font-family: 'IBM Plex Serif', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: $font-color;
+  font-size: 2.2em;
+  text-transform: uppercase;
+}
+
+img {
+  transition: transform .7s;
+  &:hover {
+    box-shadow: 10px 10px 15px 0px rgba(179,179,179,1);
+    transition: .3s ease-out;
+    transform: scale(1.1);
+    border-radius: 2px;
+  }
+}
+
+input[type="search"] {
+    width: 70%;
+    max-width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border: 2px solid $font-color;
+    color: black;
+    &:focus {
+      outline: black;
+      background: $input-focus;
+      color: $background-color;
+      transition: .8s;
+    }
+
+}
+
+.searchbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}

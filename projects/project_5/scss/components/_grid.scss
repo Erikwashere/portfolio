@@ -1,0 +1,12 @@
+.grid {
+  display: grid;
+  max-width: 1000px;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-template-rows: repeat(auto-fit, 200px);
+  grid-auto-rows: 200px;
+  justify-content: center;
+  grid-gap: 30px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin: 0 auto;
+}
